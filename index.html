@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>구글 스타일 예시</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .top-menu {
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+            padding: 20px 40px 0 0;
+            font-size: 18px;
+        }
+        .center-logo {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="top-menu">
+        <a href="#">국어</a>
+        <a href="#">이미지</a>
+        <a href="#">로그인</a>
+    </nav>
+    <div class="center-logo">
+        <!-- 구글 로고 대신 텍스트 사용 -->
+        <h1>한글</h1>
+        <!-- 또는 이미지 사용: <img src="로고이미지경로" alt="로고"> -->
+    </div>
+</body>
+</html>
