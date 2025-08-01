@@ -1,42 +1,81 @@
 <!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <title>구글 스타일 예시</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        .top-menu {
-            display: flex;
-            justify-content: flex-end;
-            gap: 20px;
-            padding: 20px 40px 0 0;
-            font-size: 18px;
-        }
-        .center-logo {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-    </style>
-</head>
-<body>
-    <nav class="top-menu">
-        <a href="#">국어</a>
-        <a href="#">이미지</a>
-        <a href="#">로그인</a>
-    </nav>
-    <div class="center-logo">
-        <!-- 구글 로고 대신 텍스트 사용 -->
-        <h1>한글</h1>
-        <!-- 또는 이미지 사용: <img src="로고이미지경로" alt="로고"> -->
-    </div>
-</body>
+<html>
+    <script>
+    function red() {
+        let button = document.querySelector("input");
+        button.style.backgroundColor = "red";
+    }
+</script>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <style>
+            .fa-solid.fa-camera{ color: #999525;
+                font-size: 80px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        </style>
+        <style>
+            name { color: #999525; font-size: 3vw; }
+        </style>
+        <div><i class="fa-solid fa-camera"></i></div>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <img src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAABWVBMVEVyHVFHcEx0Fvp8Fv1yFP1/FfyLCOyfBOmtAeS7AuDHAd3UANjZAs7rD6xyFvzjANTqAMHoA7l2F/yPFfx8GPmfD/zFF/XVWujoZuLyZt3pRt/yGdHyA8j1AKTViPj/9Pr////8g9f9A7r3DZz5vO794Pf+ruj9B6uzFPv7JLv+AJr+BI/+YMP/1vD+AIThG+n9GZn/vd3/YZz+AXP+GoT/r8r+AmT/b5z+HHH+I3f+G2P/ur7+FFD+Klb+fYv/wcr+LUf+LWX+AFn+Nzr+Ohz+RT7+inP+Si7/ztD+TxL/zbv+Wy//9fH+WgL+c1X+ZyX+PUv+Bzv+VXD+cxr/6eL+aQT+eAX+nDj+gwD+gxH+fSL+rYn+jwD+iwL+XhX/3rn/1bH9ZR/+lwP+nwH+xHH8ZC3+qAH+sAD+wAP+x1P+zGb+pl79mQn+uAD9J3T+ygD9O1n8pRL9twuaEkMNAAAAc3RSTlMBAF3G///////////GW9j//9nY/1r///////////7//////8b/////////////////////////////////////////////////////////////////////////////////xf///1v////////Y/9j/2VzGSus+GgAAAeNJREFUeAFFjEWiU0EQRc/tqu74V9wZ4TBiB6wG3wpzVoQ7zHCXeELypHH+KVchJAESaEs0IUv0Zv+7fwLgSAOk9ZFghcnfDw4AAg18cyhWCKNVob9NCZjQLWVrEGhJbJGDoCBpMwCrJTETAKBWgdeRGb4dmJW56PdI/KU1K4X15N+AFsW0+3/WVm7Pa0Pmu4Fh7HcbRIjMIhr3FItUGAH4SNZKjK32YjKpK3Iv0yUY0b8g0Vs0oK+8wbeyMBAQwVeo44R1z7XWq6rqpn5jiTmAeQO3iceg9zkYzKvc71iEmMFbqCJJ4tDcKFrLjX5D/MEdq8GpIUUgd/tgGboTgiUDPDZ44SXNpr0gWRcAgqEmEPJRNVPOxYaOth0oAHdCxWoOzslH+RCvlafYMgFUHvAIHoCjz16io80BrH/j0AAcJ9KWKkhn5sRyGjsDtr/sqyrsWNO1cW9/cDNLZgHLSzVvn+wMq9qbKKwy7TiIaKTW56pzW6Oa+N1OKEQdvvl2RyOE4DEOZurd1cHNeab27tyjOPfhFlucXP04ovF97B6jTOzdJwFLaNAff7N6c8incH1VpiSR67q2VgjzUU7JgbMTiQtFKmgAsCAuczlflmVZn7iGBFc1awB/p4tqUS3LDb8OPwBrSrZIO/KHZwAAAABJRU5ErkJggg==
+         alt="Instagram Logo" width="40px" height="40px"/><br/>
+            <input type ="search" value="검색" style="margin-left: 40px; width: 300px; height: 40px; font-size: 20px;"/><br/>
+         </div>
+         <div>
+            <img src="https://avatars.githubusercontent.com/u/100000000?v=4" alt="half_bottle" width="100px" height="100px"/><br/>
+            <div style="display : flex;; align-items: center;">
+                <H2>half_bottle</H2>
+                <button style="margin-left: 100px; width: 600px; height: 40px; font-size: 20px; background: none; border: 2px solid #999525; border-radius: 20px; color: #333; background: none; border: 2px solid #002253; border-radius: 10px; color: #4d1919;" onClick="red()">프로필 편집</button>
+            </div>
+        </div>
+        <P>
+            <strong>
+                <name>반병현 (Byunghyun Ban)</name>
+            </strong><br/>
+            <div style="font-size: 15px;">
+            저자
+            </div>
+        </P>
+        <P>
+            <a href="https://needleworm.github.io">
+            needleworm.github.io
+            </a>
+        </P>
+        <div>
+            <style>
+            #stat_bar {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                
+                border-top: 1px solid #999525;
+                border-bottom: 1px solid gray;
+               
+                margin-bottom: 5px;
+                margin-top: 5px;
+            }
+            #stat{text-align:center;}
+            </style>
+            <div id="stat_bar">
+                <div class="stat">
+                    게시물<br/>
+                    133
+                </div>
+                <div class="stat">
+                팔로워<br/>
+                 408
+                </div>
+                <div class="stat">
+                팔로우<br/>
+                189
+                </div>
+            </div>
+            </div>
+        </div>
+        </P>
+    </body>
 </html>
